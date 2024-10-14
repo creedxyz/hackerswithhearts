@@ -1,4 +1,4 @@
-consoleText(['Hi, You!', 'We are Hackers With Hearts \u2764\uFE0F', 'Brought to you with love by', 'Creed'], 'text');
+consoleText(['Hi, You!', 'We are Hackers With Hearts', 'Brought to you with \u2764\uFE0F by', 'Creed', 'Stay tuned! 👀'], 'text');
 
 function consoleText(words, id) {
     var visible = true;
