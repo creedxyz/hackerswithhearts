@@ -33,7 +33,7 @@ function consoleText(words, id) {
             // Display "Creed" all at once in #a54550
             if (words[0] === 'Creed') {
                 container.classList.add('no-cursor');
-                target.innerHTML = `<span class='creed'">Creed</span>`;
+                target.innerHTML = `<a href="https://thecreed.xyz" target="_blank" style="text-decoration: none; color: inherit;"><span class='creed'>Creed</span></a>`;
             } else {
                 // Display other words letter by letter
                 const characters = Array.from(segmenter.segment(words[0])).map(segment => segment.segment);
